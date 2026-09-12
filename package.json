@@ -1,0 +1,36 @@
+{
+  "name": "@payzum/medusa-payment-payzum",
+  "version": "1.2.0",
+  "description": "Payzum crypto & stablecoin payment provider for Medusa v2. Non-custodial.",
+  "license": "MIT",
+  "keywords": [
+    "medusa",
+    "medusa-plugin",
+    "payment",
+    "crypto",
+    "stablecoin",
+    "usdc",
+    "usdt",
+    "payzum"
+  ],
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "tsc"
+  },
+  "peerDependencies": {
+    "@medusajs/framework": "^2.0.0"
+  },
+  "devDependencies": {
+    "@medusajs/framework": "^2.0.0",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "payzum": "^0.1.0"
+  }
+}
