@@ -41,8 +41,11 @@ custody. No chargebacks, no card networks, no PCI surface.
 
 ## Installation
 
+The npm listing is still pending, so install from the release tarball — it is the same built
+package that will go to npm as `@payzum/medusa-payment-payzum`:
+
 ```bash
-npm install @payzum/medusa-payment-payzum
+npm install https://github.com/payzum-dev/medusa-payment-payzum/releases/download/v1.2.0/payzum-medusa-payment-payzum-1.2.0.tgz
 ```
 
 Register under the Payment module in `medusa-config.ts` (in a
